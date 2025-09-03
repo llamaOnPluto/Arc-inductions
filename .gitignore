@@ -2,3 +2,20 @@
 src/*/build
 src/*/install
 src/*/log
+
+# ROS build and development folders
+build/
+build_isolated/
+devel/
+devel_isolated/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# MacOS metadata
+.DS_Store
+
+# Logs
+*.log
+
